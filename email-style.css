@@ -1,0 +1,126 @@
+html, body {
+    overflow-x: hidden;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: #ededed94;
+}
+#fluent-mail{
+    padding: 100px 0;
+}
+#fluent-mail a {
+    color: #17c863;
+    text-decoration: underline;
+    background-color: transparent;
+}
+#upsc-mail{
+    padding: 100px 0;
+}
+#upsc-mail a {
+    color: #17c863;
+    text-decoration: underline;
+    background-color: transparent;
+}
+p{
+    font-weight: 400;
+    color: #616463;
+}
+.logo{
+    padding: 40px 0;
+}
+#upsc-mail .logo{
+    background: #ded1f8;
+    padding: 40px 0;
+}
+.header{
+    background: white;
+    padding: 20px 100px ;
+}
+.details{
+    background: #EAFFF3;
+    padding: 20px 100px 0;
+}
+#upsc-mail .details{
+    background: #f0e9fe;
+    padding: 20px 100px 0;
+}
+h6{
+    font-size: 24px;
+    font-weight: 600;
+    color: #686363;
+    margin-bottom: 20px;
+}
+.subject{
+    padding: 12px;
+}
+.subject h3{
+    padding-bottom:40px;
+}
+.subject label{
+    font-size: 12px;
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #868983;
+}
+.class-start{
+    background: white;
+    padding: 20px 100px;
+}
+.download{
+    padding: 20px 100px;
+    background: #ebe8f8;
+}
+.meeting-link{
+    padding: 20px 100px;
+    background: white;
+}
+.footer{
+    background: #EAFFF3;
+    padding: 20px 100px;
+}
+.footer img{
+    margin-bottom: 20px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer a{
+    color: black !important;
+    text-decoration: none !important;
+}
+#upsc-mail .footer{
+    background: #f0e9fe;
+    padding: 20px 100px;
+}
+@media  (max-width: 600px){
+    #upsc-mail .footer{
+        padding: 20px 10px;
+    }
+    .footer{
+        padding: 20px 10px;
+    }
+    .class-start{
+        padding: 20px 10px;
+    }
+    .download{
+        padding: 20px 10px;
+        background: #ebe8f8;
+    }
+    .meeting-link{
+        padding: 20px 10px;
+    }
+    .header{
+        padding: 20px 10px ;
+    }
+    .details{
+        padding: 20px 10px 0;
+    }
+    #upsc-mail .details{
+        padding: 20px 10px 0;
+    }
+    #upsc-mail{
+        padding: 10px 0;
+    }
+    #fluent-mail{
+        padding: 10px 0;
+    }
+}
